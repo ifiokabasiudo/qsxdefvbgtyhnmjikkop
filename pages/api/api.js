@@ -68,8 +68,7 @@ export default async function api (req, res) {
   
     const finalPrompt = `
         Info: ${queryRes.matches[0].metadata.text}
-        Question: According to UPDATED MERGED NOTES AND REPORTS_15_06_2023.pdf and/or ONLY THE MAN'S NOTE AFTTER REPORTS.pdf ${query}. 
-        If you're unsure of the answer, just say I don't now.  
+        Question: According to UPDATED MERGED NOTES AND REPORTS_15_06_2023.pdf and/or ONLY THE MAN'S NOTE AFTTER REPORTS.pdf ${query}.  
         Answer:
       `;
   
